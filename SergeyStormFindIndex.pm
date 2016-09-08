@@ -35,7 +35,6 @@ package SergeyStormFindIndex {
 					last MEASURE;
 				}
 			}
-			print "Stop search: ".time()."\n";
 			return ($nearest_idx, $nearest_idx+1);
 		} else {
 			print "Параметр не является ссылкой на массив.\n";
